@@ -1,0 +1,86 @@
+ros-jazzy-nao-lola (1.3.0-3bookworm) bookworm; urgency=high
+
+
+
+ -- ijnek <kenjibrameld@gmail.com>  Fri, 12 Apr 2024 16:00:00 -0000
+
+ros-jazzy-nao-lola (1.2.0-3bookworm) bookworm; urgency=high
+
+  * Don't process JointPositions and JointStiffnesses message if message is invalid. This prevents segmentation faults.
+  * Contributors: ijnek
+
+ -- ijnek <kenjibrameld@gmail.com>  Fri, 08 Dec 2023 16:00:00 -0000
+
+ros-jazzy-nao-lola (1.1.1-3bookworm) bookworm; urgency=high
+
+  * revert msgpack-c commit to match those in the iron branch, because newer version of msgpack-c is crashing LoLA
+  * Contributors: ijnek
+
+ -- ijnek <kenjibrameld@gmail.com>  Tue, 22 Aug 2023 16:00:00 -0000
+
+ros-jazzy-nao-lola (1.1.0-3bookworm) bookworm; urgency=high
+
+
+
+ -- ijnek <kenjibrameld@gmail.com>  Wed, 02 Aug 2023 16:00:00 -0000
+
+ros-jazzy-nao-lola (1.0.0-3bookworm) bookworm; urgency=high
+
+  * Deprecate nao_lola package in favor of nao_lola_client package.
+  * Contributors: ijnek
+
+ -- ijnek <kenjibrameld@gmail.com>  Tue, 01 Aug 2023 16:00:00 -0000
+
+ros-jazzy-nao-lola (0.3.1-3bookworm) bookworm; urgency=high
+
+  * Retain state of all effectors
+  * Send effectors in every cycle
+  * Contributors: ijnek
+
+ -- ijnek <kenjibrameld@gmail.com>  Fri, 19 May 2023 16:00:00 -0000
+
+ros-jazzy-nao-lola (0.3.0-3bookworm) bookworm; urgency=high
+
+  * Fix race condition on packer
+  * Contributors: ijnek
+
+ -- ijnek <kenjibrameld@gmail.com>  Thu, 27 Apr 2023 16:00:00 -0000
+
+ros-jazzy-nao-lola (0.2.0-3bookworm) bookworm; urgency=high
+
+  * Split off galactic and humble branches
+  * Fix status test to use int rather than float
+  * Contributors: Kenji Brameld
+
+ -- ijnek <kenjibrameld@gmail.com>  Wed, 20 Jul 2022 16:00:00 -0000
+
+ros-jazzy-nao-lola (0.0.4-3bookworm) bookworm; urgency=high
+
+  * fix cpplint warning
+  * add changes to ci to test all distros
+  * Contributors: Kenji Brameld, ijnek
+
+ -- ijnek <kenjibrameld@gmail.com>  Thu, 03 Feb 2022 16:00:00 -0000
+
+ros-jazzy-nao-lola (0.0.3-3bookworm) bookworm; urgency=high
+
+  * add ament_cmake_gtest and boost dependency in package.xml and CMakeLists.txt
+  * Contributors: Kenji Brameld
+
+ -- ijnek <kenjibrameld@gmail.com>  Wed, 28 Jul 2021 16:00:00 -0000
+
+ros-jazzy-nao-lola (0.0.2-3bookworm) bookworm; urgency=high
+
+  * specify license and update package description
+  * Contributors: Kenji Brameld
+
+ -- ijnek <kenjibrameld@gmail.com>  Mon, 19 Jul 2021 16:00:00 -0000
+
+ros-jazzy-nao-lola (0.0.1-3bookworm) bookworm; urgency=high
+
+  * Initial impelementation
+  * Contributors: Kenji Brameld
+
+ -- ijnek <kenjibrameld@gmail.com>  Fri, 16 Jul 2021 16:00:00 -0000
+
+
