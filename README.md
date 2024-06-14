@@ -1,3 +1,30 @@
+## nao_lola (jazzy) - 1.3.0-3
+
+The packages in the `nao_lola` repository were released into the `jazzy` distro by running `/home/z572/gits/revyos-ros/venv/bin/bloom-release -r jazzy nao_lola --override-release-repository-push-url git@github.com:revyos-ros/nao_lola-release.git` on `Fri, 14 Jun 2024 02:30:50 -0000`
+
+These packages were released:
+- `nao_lola`
+- `nao_lola_client`
+- `nao_lola_command_msgs`
+- `nao_lola_sensor_msgs`
+
+Version of package(s) in repository `nao_lola`:
+
+- upstream repository: https://github.com/ros-sports/nao_lola.git
+- release repository: https://github.com/revyos-ros/nao_lola-release.git
+- rosdistro version: `1.3.0-2`
+- old version: `1.3.0-2`
+- new version: `1.3.0-3`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## nao_lola (humble) - 0.1.3-1
 
 The packages in the `nao_lola` repository were released into the `humble` distro by running `/usr/bin/bloom-release nao_lola --rosdistro humble` on `Sat, 13 Apr 2024 23:59:26 -0000`
