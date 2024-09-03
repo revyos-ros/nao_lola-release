@@ -1,0 +1,12 @@
+Source: ros-humble-nao-lola
+Section: misc
+Priority: optional
+Maintainer: ijnek <kenjibrameld@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-humble-ament-cmake, ros-humble-ament-cmake-gtest <!nocheck>, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-nao-command-msgs, ros-humble-nao-sensor-msgs, ros-humble-rclcpp, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-nao-lola
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-humble-nao-command-msgs, ros-humble-nao-sensor-msgs, ros-humble-rclcpp, ros-humble-ros-workspace
+Description: Packages that allow communicating with the NAO’s Lola middle-ware.
